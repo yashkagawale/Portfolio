@@ -32,7 +32,7 @@ const works = [
 
 const Work = () => {
   return (
-    <section id="work" className="section mb-10"> {/*remove this mb-10 before contiuning with the next section*/}
+    <section id="work" className="section">
         <div className="container">
             <h2 className="headline-2 mb-8">
                 My portfolio highlights

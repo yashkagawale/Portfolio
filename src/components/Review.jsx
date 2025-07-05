@@ -5,8 +5,10 @@
 
 
 const Review = () => {
-  return (
-    <div>Review</div>
+  return ( 
+    <section id="reviews" className="">
+        <h1>Review</h1>
+    </section>
   )
 }
 

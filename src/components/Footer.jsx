@@ -40,11 +40,11 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/yashkagawale'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: 'https://www.linkedin.com/in/yash-kagawale-322443203/'
   },
 ];
 
@@ -63,7 +63,7 @@ const Footer = () => {
 
                     < ButtonPrimary  
                         href="mailto:kagawaleyash@gmail.com"
-                        label="Start Project"
+                        label="Let&apos;s Connect"
                         icon="chevron_right"
                         classes="reveal-up"
                     />

@@ -11,11 +11,11 @@ import logo from '../assets/logo.svg'
 const aboutItems = [
     {
         label: 'Project done',
-        number: 45
+        number: 5
     },
     {
-        label: 'Years of experience',
-        number: 10
+        label: 'Months of experience',
+        number: 6
     }
 ];
 

@@ -20,13 +20,13 @@ const works = [
     imgSrc: project_1,
     title: 'Full stack music app',
     tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    projectLink: '/'
   },
   {
     imgSrc: project_2,
     title: 'Free stock photo app',
     tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: '/'
   },
 ];
 

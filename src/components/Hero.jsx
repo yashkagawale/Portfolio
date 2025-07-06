@@ -6,8 +6,8 @@
 /**
  * assets
  */
-import avatar from '../assets/avatar-1.jpg'
-import banner_hero from '../assets/hero-banner.png'
+import avatar from '../assets/avatar.jpg'
+import banner_hero from '../assets/hero-banner.jpg'
 
 
 /**
@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
             <div>
                 <div className="flex items-center gap-3">
-                    <figure className="img-box w-9 h-9 rounded-lg">
+                    <figure className="img-box w-7 h-7 rounded-2xl">
                         <img src={avatar} width={40} height={40} alt="portrait" className="img-cover" />
                     </figure>
 
@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <div className="hidden lg:block">
-                <figure className="w-full max-w-[480pc] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+                <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[80px] overflow-hidden">
                     <img src={banner_hero} width={656} height={800} alt="hero-banner" className="w-full"/>
                 </figure>
             </div>

@@ -59,7 +59,7 @@ const Contact = () => {
         const data = await response.json();
 
         if (data.success) {
-            setResult("Form Submitted Successfully ✅");
+            setResult("Form Submitted Successfully");
             event.target.reset();
         } else {
             console.error("Error", data);
@@ -154,9 +154,9 @@ const Contact = () => {
                 </div>
 
                 <button 
-                type="submit" 
-                className="btn btn-primary  w-full justify-center">
-                    Submit
+                  type="submit" 
+                  className="btn-contact btn-primary w-full justify-center">
+                    Submit  <span className="material-symbols-rounded text-lg">arrow_forward</span>
                 </button>
 
                 <span className='block mt-4 text-sm text-zinc-400'>{result}</span>

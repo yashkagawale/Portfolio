@@ -8,6 +8,7 @@
  */
 import avatar from '../assets/avatar.jpg'
 import banner_hero from '../assets/hero-banner.jpg'
+import Resume from '../documents/Yash_Kagawale.pdf'
 
 
 /**
@@ -40,6 +41,9 @@ const Hero = () => {
                     <ButtonPrimary 
                         label = "Download CV"
                         icon = "download"
+                        href={Resume}
+                        download
+
                     /> 
 
                     <ButtonOutline 

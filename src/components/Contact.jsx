@@ -157,7 +157,7 @@ const Contact = () => {
 
                 <button 
                   type="submit" 
-                  className="btn-contact btn-primary w-full justify-center reveal-up">
+                  className="btn-contact btn-primary w-full justify-center">
                     Submit  <span className="material-symbols-rounded text-lg">arrow_forward</span>
                 </button>
 

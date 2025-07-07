@@ -11,22 +11,22 @@ import ProjectCard from "./ProjectCard";
 /**
  * assets
  */
-import project_1 from '../assets/project-1.jpg';
-import project_2 from '../assets/project-2.jpg';
+import project_1 from '../assets/Educity.png';
+import project_2 from '../assets/Thriftstore.png';
 
 
 const works = [
   {
     imgSrc: project_1,
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: '/'
+    title: 'Educity',
+    tags: ['Web-design', 'Development'],
+    projectLink: 'https://educity-pro.netlify.app/'
   },
   {
     imgSrc: project_2,
-    title: 'Free stock photo app',
-    tags: ['API', 'SPA'],
-    projectLink: '/'
+    title: 'Thrift Store',
+    tags: ['Web-design', 'Development'],
+    projectLink: 'https://thirftstore.netlify.app/'
   },
 ];
 

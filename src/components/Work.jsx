@@ -34,7 +34,7 @@ const Work = () => {
   return (
     <section id="work" className="section">
         <div className="container">
-            <h2 className="headline-2 mb-8 reveal-up">
+            <h2 className="headline-2 mb-8  ">
                 My portfolio highlights
             </h2>
 
@@ -47,7 +47,7 @@ const Work = () => {
                         title={title}
                         tags={tags}
                         projectLink={projectLink}
-                        classes="reveal-up"
+                        classes=" "
                     />
                 ))}
             </div>

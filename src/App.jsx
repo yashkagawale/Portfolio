@@ -31,26 +31,26 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const App = () => {
 
-    useGSAP(() => {
-        const elements = gsap.utils.toArray('.reveal-up');
+    // useGSAP(() => {
+    //     const elements = gsap.utils.toArray('.reveal-up');
 
-        // console.log(elements);
+    //     // console.log(elements);
 
-        elements.forEach((element) => {
-            gsap.to(elements, {
-                scrollTrigger: {
-                    trigger: element,
-                    start: '-200 bottom',
-                    end: 'bottom 80%',
-                    scrub: true,
-                },
-                y: 0,
-                opacity: 1,
-                duration: 1,
-                ease: 'power2.out'
-            })
-        });
-    });
+    //     elements.forEach((element) => {
+    //         gsap.to(elements, {
+    //             scrollTrigger: {
+    //                 trigger: element,
+    //                 start: '-200 bottom',
+    //                 end: 'bottom 80%',
+    //                 scrub: true,
+    //             },
+    //             y: 0,
+    //             opacity: 1,
+    //             duration: 1,
+    //             ease: 'power2.out'
+    //         })
+    //     });
+    // });
 
     return (
         <ReactLenis root>

@@ -13,19 +13,26 @@ import ProjectCard from "./ProjectCard";
  */
 import project_1 from '../assets/Educity.png';
 import project_2 from '../assets/Thriftstore.png';
+import project_3 from '../assets/Prepscripto.png'
 
 
 const works = [
   {
     imgSrc: project_1,
     title: 'Educity',
-    tags: ['Web-design', 'Development'],
+    tags: ['Web-design', 'Frontend'],
     projectLink: 'https://educity-pro.netlify.app/'
+  },
+  {
+    imgSrc: project_3,
+    title: 'Prepscripto',
+    tags: ['Web-design', 'FullStack'],
+    projectLink: 'https://yashprescripto.netlify.app/'
   },
   {
     imgSrc: project_2,
     title: 'Thrift Store',
-    tags: ['Web-design', 'Development'],
+    tags: ['Web-design', 'Frontend'],
     projectLink: 'https://thirftstore.netlify.app/'
   },
 ];

@@ -52,10 +52,11 @@ const ButtonPrimary = ({
     }
 }
 
-ButtonPrimary.prototype = {
+ButtonPrimary.propTypes = {
   label: propTypes.string.isRequired,
   href: propTypes.string,
-  targer: propTypes.string,
+  target: propTypes.string,
+  download: propTypes.bool,
   icon: propTypes.string,
   classes: propTypes.string
 }
@@ -103,10 +104,10 @@ const ButtonOutline = ({
     }
 }
 
-ButtonOutline.prototype = {
+ButtonOutline.propTypes = {
   label: propTypes.string.isRequired,
   href: propTypes.string,
-  targer: propTypes.string,
+  target: propTypes.string,
   icon: propTypes.string,
   classes: propTypes.string
 }

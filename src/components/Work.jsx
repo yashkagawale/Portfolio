@@ -35,6 +35,12 @@ const works = [
     tags: ['Web-design', 'Frontend'],
     projectLink: 'https://thirftstore.netlify.app/'
   },
+  // {
+  //   imgSrc: project_4,
+  //   title: 'Face Recognition',
+  //   tags: ['Python', 'OpenCV'],
+  //   projectLink: 'https://github.com/yashkagawale/Face-Recognition'
+  // },
 ];
 
 const Work = () => {

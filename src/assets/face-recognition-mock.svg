@@ -1,0 +1,71 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="1190" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="160" y1="140" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="camera" x1="200" y1="190" x2="770" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#12203A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" rx="32" fill="url(#bg)"/>
+  <rect x="120" y="100" width="1040" height="540" rx="24" fill="url(#panel)" stroke="#334155"/>
+
+  <rect x="160" y="140" width="1040" height="56" rx="14" fill="#0B1220" stroke="#263244"/>
+  <circle cx="190" cy="168" r="7" fill="#EF4444"/>
+  <circle cx="214" cy="168" r="7" fill="#F59E0B"/>
+  <circle cx="238" cy="168" r="7" fill="#10B981"/>
+  <text x="270" y="175" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Face Recognition Dashboard</text>
+  <rect x="930" y="152" width="240" height="30" rx="15" fill="#0F172A" stroke="#334155"/>
+  <text x="952" y="172" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="14">Live Monitoring</text>
+
+  <rect x="180" y="220" width="620" height="380" rx="18" fill="url(#camera)" stroke="#334155"/>
+  <text x="204" y="250" fill="#93C5FD" font-family="Inter, Arial, sans-serif" font-size="16">Camera Feed</text>
+
+  <rect x="370" y="300" width="220" height="220" rx="14" fill="none" stroke="#22D3EE" stroke-width="4"/>
+  <rect x="364" y="294" width="232" height="232" rx="18" fill="#22D3EE" opacity="0.12" filter="url(#soft)"/>
+  <circle cx="480" cy="390" r="52" fill="#1E3A8A" opacity="0.55"/>
+  <rect x="422" y="448" width="116" height="56" rx="28" fill="#1E40AF" opacity="0.5"/>
+
+  <rect x="540" y="252" width="240" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="560" y="271" fill="#A5F3FC" font-family="Inter, Arial, sans-serif" font-size="13">Status: Recognized</text>
+
+  <rect x="830" y="220" width="350" height="380" rx="18" fill="#0B1220" stroke="#334155"/>
+  <text x="854" y="250" fill="#93C5FD" font-family="Inter, Arial, sans-serif" font-size="16">Attendance Log</text>
+
+  <rect x="850" y="272" width="310" height="58" rx="12" fill="#0F172A" stroke="#334155"/>
+  <text x="870" y="305" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="14">User #1024</text>
+  <rect x="1066" y="287" width="82" height="24" rx="12" fill="url(#accent)"/>
+  <text x="1080" y="303" fill="#0B1220" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">IN</text>
+
+  <rect x="850" y="342" width="310" height="58" rx="12" fill="#0F172A" stroke="#334155"/>
+  <text x="870" y="375" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="14">User #1025</text>
+  <rect x="1046" y="357" width="102" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="1062" y="373" fill="#FBBF24" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">Unknown</text>
+
+  <rect x="850" y="412" width="310" height="58" rx="12" fill="#0F172A" stroke="#334155"/>
+  <text x="870" y="445" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="14">User #1026</text>
+  <rect x="1066" y="427" width="82" height="24" rx="12" fill="url(#accent)"/>
+  <text x="1080" y="443" fill="#0B1220" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">IN</text>
+
+  <rect x="850" y="482" width="310" height="58" rx="12" fill="#0F172A" stroke="#334155"/>
+  <text x="870" y="515" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="14">User #1027</text>
+  <rect x="1066" y="497" width="82" height="24" rx="12" fill="url(#accent)"/>
+  <text x="1080" y="513" fill="#0B1220" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">OUT</text>
+
+  <rect x="180" y="620" width="1000" height="8" rx="4" fill="#0B1220"/>
+  <rect x="180" y="620" width="620" height="8" rx="4" fill="url(#accent)"/>
+</svg>

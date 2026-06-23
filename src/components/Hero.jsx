@@ -7,8 +7,7 @@
  * assets
  */
 import avatar from "../assets/avatar.jpg";
-import banner_hero from "../assets/hero-banner.jpg";
-import Resume from "../documents/Yash_Kagawale.pdf";
+import Resume from "../documents/Yash_Kagawale_Apply.pdf";
 import avatarwo from "../assets/avatar-bg.png";
 
 /**
@@ -43,7 +42,7 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Websites for the Future
+            Building scalable, user-centric web and mobile experiences
           </h2>
 
           <div className="flex items-center gap-3">
@@ -68,7 +67,7 @@ const Hero = () => {
                 </figure> */}
           <ProfileCard
             name="Yash U. Kagawale"
-            title="Web Developer"
+            title="Junior Software Engineer (Frontend)"
             handle=""
             status="Online"
             contactText="Contact Me"

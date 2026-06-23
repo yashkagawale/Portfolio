@@ -6,7 +6,7 @@
 /**
  * Components
  */
-import SkillCard from './Skillcard';
+import SkillCard from './SkillCard';
 
 
 /**

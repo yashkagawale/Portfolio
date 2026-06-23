@@ -7,45 +7,12 @@
  * Components
  */
 import { ButtonPrimary } from "./Button";
+import { CONTACT_EMAIL, FOOTER_SITEMAP, SOCIAL_LINKS } from "../config/siteData";
 
 /**
  * Assets
  */
 import Logo from "../assets/logo.svg";
-
-const sitemap = [
-  {
-    label: "Home",
-    href: "#home",
-  },
-  {
-    label: "About",
-    href: "#about",
-  },
-  {
-    label: "Work",
-    href: "#work",
-  },
-  //   {
-  //     label: 'Reviews',
-  //     href: '#reviews'
-  //   },
-  {
-    label: "Contact me",
-    href: "#contact",
-  },
-];
-
-const socials = [
-  {
-    label: "GitHub",
-    href: "https://github.com/yashkagawale",
-  },
-  {
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/yash-kagawale-322443203/",
-  },
-];
 
 const Footer = () => {
   return (
@@ -58,7 +25,7 @@ const Footer = () => {
             </h2>
 
             <ButtonPrimary
-              href="mailto:kagawaleyash@gmail.com"
+              href={`mailto:${CONTACT_EMAIL}`}
               label="Let's Connect"
               icon="chevron_right"
               classes=" "
@@ -70,7 +37,7 @@ const Footer = () => {
               <p className="mb-2  ">Sitemap</p>
 
               <ul>
-                {sitemap.map(({ label, href }, key) => (
+                {FOOTER_SITEMAP.map(({ label, href }, key) => (
                   <li key={key}>
                     <a
                       href={href}
@@ -86,11 +53,12 @@ const Footer = () => {
               <p className="mb-2  ">Socials</p>
 
               <ul>
-                {socials.map(({ label, href }, key) => (
+                {SOCIAL_LINKS.map(({ label, href }, key) => (
                   <li key={key}>
                     <a
                       href={href}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="underline-slide block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200  "
                     >
                       {label}
@@ -108,7 +76,7 @@ const Footer = () => {
           </a>
 
           <p className="text-zinc-500 text-sm  ">
-            &copy; 2025 <span className="text-zinc-200">yashkagawale</span>
+            &copy; 2026 <span className="text-zinc-200">yashkagawale</span>
           </p>
         </div>
       </div>
